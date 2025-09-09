@@ -14,7 +14,5 @@ based on [angristan/openvpn-install](https://github.com/angristan/openvpn-instal
 ## Quick Install
 ```bash
 curl -O https://raw.githubusercontent.com/reshgar/openvpn-2.6.14-install-xor/main/setup_openvpn_2.6.14_xor.sh
-
 chmod +x setup_openvpn_2.6.14_xor.sh
-
 ./setup_openvpn_2.6.14_xor.sh
