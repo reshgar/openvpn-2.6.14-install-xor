@@ -1,6 +1,29 @@
 #!/bin/bash
-# setup_openvpn_2.6.14_xor.sh
-# Step-by-step: interactive angristan install first, then XOR-patched OpenVPN 2.6.14
+# ============================================================
+#  reshrag's OpenVPN XOR Installer
+#  Version: 2.6.14 (XOR patched)
+#
+#  Description:
+#    Interactive OpenVPN server installer with XOR obfuscation,
+#    based on angristan/openvpn-install and Tunnelblick XOR patches.
+#    This script runs angristan's interactive setup first, then
+#    replaces the distro OpenVPN with a custom-built, XOR-patched
+#    OpenVPN 2.6.14 from source.
+#
+#  Features:
+#    - Step-by-step interactive setup (choose your own options)
+#    - XOR obfuscation for bypassing DPI
+#    - Latest Tunnelblick XOR patches applied
+#    - Systemd service auto-setup
+#
+#  Credits:
+#    Original installer by angristan (MIT License)
+#    XOR patches by Tunnelblick
+#    Modifications and updates by reshrag
+#
+#  License:
+#    MIT License  see LICENSE file for details.
+# ============================================================
 
 set -e
 
