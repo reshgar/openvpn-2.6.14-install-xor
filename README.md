@@ -1,12 +1,9 @@
-# reshrag's OpenVPN 2.6.14 XOR Installer
+# Reshrag's OpenVPN 2.6.14 XOR Installer
 
-An interactive OpenVPN server installer with XOR obfuscation support,  
-based on [angristan/openvpn-install](https://github.com/angristan/openvpn-install)  
-and [Tunnelblick XOR patches](https://github.com/Tunnelblick/Tunnelblick).
+An interactive OpenVPN server installer with XOR obfuscation support, based on [angristan/openvpn-install](https://github.com/angristan/openvpn-install) and [Tunnelblick XOR patches](https://github.com/Tunnelblick/Tunnelblick).
 
 This project lets you set up a secure, obfuscated OpenVPN server in minutes.  
-It runs angristan’s interactive installer first (so you can choose your own options),  
-then replaces the stock OpenVPN binary with a **custom‑built, XOR‑patched OpenVPN 2.6.14**.
+It runs angristan’s interactive installer first (so you can choose your own options), then replaces the stock OpenVPN binary with a **custom‑built, XOR‑patched OpenVPN 2.6.14**.
 
 ---
 
@@ -44,7 +41,7 @@ chmod +x setup_openvpn_2.6.14_xor.sh
 
 - Original installer — angristan/openvpn-install (MIT License)
 - XOR patches — Tunnelblick
-- Modifications & updates — reshrag
+- Modifications & updates — Reshrag
 
 ---
 
